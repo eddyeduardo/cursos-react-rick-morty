@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### API para el ejercicio
+
+https://rickandmortyapi.com/documentation/#rest
+
+### Servicio de entorno de produccion gratuito para subir el deploy realizado 
+
+https://www.netlify.com/
+
+### El mismo servico pero para subir la carpeta deploy manualmente, arrastrando la carpeta a este sitio
+https://app.netlify.com/drop
