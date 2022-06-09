@@ -1,3 +1,6 @@
+import {Button} from "react-bootstrap";
+
+
 export default function Caracter(props) {
   const { characters, setCaracter } = props;
 
@@ -8,7 +11,7 @@ export default function Caracter(props) {
   return (
     <div className="characters">
       <h1>Personajes</h1>
-      <span className="back-home" onClick={resetearDatos}>Volver a la Home</span>
+      <Button variant="primary" className="btn-search" onClick={resetearDatos}>Volver</Button>
       <div className="container-characters">
         {characters.map((caracter, index) => (
           <div key={index} className="characters">
@@ -21,7 +24,7 @@ export default function Caracter(props) {
                 Estatus:{" "}
                 {caracter.status === "Alive" ? (
                   <>
-                    <span className="Alive">Alive</span>
+                    <span className="alive">Alive</span>
                   </>
                 ) : (
                   <>
@@ -41,7 +44,7 @@ export default function Caracter(props) {
           </div>
         ))}
       </div>
-      <span className="back-home" onClick={resetearDatos}>Volver a la Home</span>
+      <Button variant="primary" className="btn-search" onClick={resetearDatos}>Volver</Button>
 
     </div>
   );

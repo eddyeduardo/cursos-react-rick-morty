@@ -41,6 +41,11 @@ body {
 .characters {
   padding: 50px;
 }
+div.container-characters .characters {
+  background-color: #A4A9B3;
+  margin: 10px;
+  border-radius: 10px;
+}
 
 .characters h1 {
   margin-top: 0;
@@ -128,7 +133,7 @@ body {
 
 @media (max-width: 768px) {
   .characters {
-    padding: 0 20px;
+    padding:  20px;
   }
 
   .container-characters {
