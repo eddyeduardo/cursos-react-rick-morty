@@ -41,7 +41,7 @@ export default function Caracter(props) {
           </div>
         ))}
       </div>
-      <span className="back-home" onClick={setCaracter}>Volver a la Home</span>
+      <span className="back-home" onClick={resetearDatos}>Volver a la Home</span>
 
     </div>
   );
