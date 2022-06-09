@@ -11,7 +11,7 @@ export default function Caracter(props) {
       <span className="back-home" onClick={resetearDatos}>Volver a la Home</span>
       <div className="container-characters">
         {characters.map((caracter, index) => (
-          <div key={index} className="character">
+          <div key={index} className="characters">
             <div>
               <img src={caracter.image} alt={caracter.name} />
             </div>
@@ -29,14 +29,14 @@ export default function Caracter(props) {
                   </>
                 )}
               </h6>
-              <p>
+              <h6>
                 <span className="text-gray">Episodios: </span>
                 <span> {caracter.episode.length}</span>
-              </p>
-              <p>
+              </h6>
+              <h6>
                 <span className="text-gray">Especie: </span>
                 <span> {caracter.species}</span>
-              </p>
+              </h6>
             </div>
           </div>
         ))}
